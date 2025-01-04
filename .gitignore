@@ -1,0 +1,95 @@
+﻿# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ppPackages/
+[Tt]est[Rr]esult*/ 
+[Dd]ataStore/
+[Ll]og/
+[Ll]ogs/
+
+# Don't ignore build scripts
+!src/**/*.cmd
+!src/**/*.sh
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.code-workspace
+
+# Auto-generated files
+Generated/
+GeneratedFiles/
+Generated_Sources/
+obj/
+bin/
+out/
+
+# Roslyn cache directories
+.vscode/
+.nuget/
+trace/
+
+# Entity Framework Migrations
+**/Migrations/
+
+# Rider Files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Azure Functions
+local.settings.json
+
+# Logs
+*.log
+**/Logs/
+
+# NLog config
+**/nlog.config
+**/NLog.config
+
+# Package and restore results
+*.nupkg
+*.snupkg
+.project
+.nuget/
+
+# Others
+node_modules/
+wwwroot/
+.DS_Store
+dist/
+tmp/
+.env
+appsettings.*.json
+appsettings.json
+
+# Git Secrets
+*.secrets.json
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux specific
+*~
