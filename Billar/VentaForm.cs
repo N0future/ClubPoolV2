@@ -149,7 +149,7 @@ namespace Billar
 
 
                     ActualizarTotal(); // Actualizar el total visualmente
-                   
+
                 }
             }
             else
@@ -315,5 +315,6 @@ namespace Billar
         {
             limpiarPagos();
         }
+
     }
 }

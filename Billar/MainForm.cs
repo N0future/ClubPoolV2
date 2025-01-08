@@ -17,7 +17,6 @@ namespace Billar
         {
 
             userId = _userId;
-
             InitializeComponent();
             CargarInformacionMesas();
             IniciarTimers();
@@ -26,6 +25,8 @@ namespace Billar
             ActualizarLabelEstadoCaja();
             lblUsuario.Text = _username;
             userName = _username;
+            panelMain.BackColor = Color.Transparent;
+
         }
 
 
@@ -442,6 +443,11 @@ namespace Billar
         }
 
         private void lblEstado3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label22_Click(object sender, EventArgs e)
         {
 
         }

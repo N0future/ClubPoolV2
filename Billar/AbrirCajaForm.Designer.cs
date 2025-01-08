@@ -111,9 +111,9 @@
             label8.ForeColor = Color.White;
             label8.Location = new Point(460, 262);
             label8.Name = "label8";
-            label8.Size = new Size(162, 25);
+            label8.Size = new Size(155, 25);
             label8.TabIndex = 11;
-            label8.Text = "Efectivo Inicial :";
+            label8.Text = "Efectivo Inicial ";
             // 
             // lblMontoCierre
             // 
@@ -123,9 +123,9 @@
             lblMontoCierre.ForeColor = Color.White;
             lblMontoCierre.Location = new Point(460, 326);
             lblMontoCierre.Name = "lblMontoCierre";
-            lblMontoCierre.Size = new Size(162, 25);
+            lblMontoCierre.Size = new Size(155, 25);
             lblMontoCierre.TabIndex = 13;
-            lblMontoCierre.Text = "Efectivo Cierre :";
+            lblMontoCierre.Text = "Efectivo Cierre ";
             // 
             // txtMontoCierre
             // 
@@ -144,9 +144,9 @@
             label2.ForeColor = Color.White;
             label2.Location = new Point(460, 199);
             label2.Name = "label2";
-            label2.Size = new Size(67, 25);
+            label2.Size = new Size(60, 25);
             label2.TabIndex = 14;
-            label2.Text = "Caja :";
+            label2.Text = "Caja ";
             // 
             // lblEstadoCaja
             // 
@@ -154,7 +154,7 @@
             lblEstadoCaja.BackColor = Color.Transparent;
             lblEstadoCaja.Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblEstadoCaja.ForeColor = Color.White;
-            lblEstadoCaja.Location = new Point(610, 39);
+            lblEstadoCaja.Location = new Point(460, 37);
             lblEstadoCaja.Name = "lblEstadoCaja";
             lblEstadoCaja.Size = new Size(67, 25);
             lblEstadoCaja.TabIndex = 15;
@@ -164,16 +164,16 @@
             // 
             gbContabilidad.BackColor = Color.Transparent;
             gbContabilidad.Controls.Add(lblTotalConsumo);
-            gbContabilidad.Controls.Add(label6);
             gbContabilidad.Controls.Add(lblDiferencia);
             gbContabilidad.Controls.Add(label11);
-            gbContabilidad.Controls.Add(lblGananciasMesas);
-            gbContabilidad.Controls.Add(label9);
+            gbContabilidad.Controls.Add(label6);
             gbContabilidad.Controls.Add(lblCantidadVentas);
             gbContabilidad.Controls.Add(label7);
             gbContabilidad.Controls.Add(lblTotalVentas);
             gbContabilidad.Controls.Add(lblMontoEfectivo);
+            gbContabilidad.Controls.Add(lblGananciasMesas);
             gbContabilidad.Controls.Add(lblMontoTarjeta);
+            gbContabilidad.Controls.Add(label9);
             gbContabilidad.Controls.Add(label4);
             gbContabilidad.Controls.Add(label3);
             gbContabilidad.Controls.Add(label1);
@@ -191,7 +191,7 @@
             lblTotalConsumo.BackColor = SystemColors.InfoText;
             lblTotalConsumo.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             lblTotalConsumo.ForeColor = Color.White;
-            lblTotalConsumo.Location = new Point(266, 330);
+            lblTotalConsumo.Location = new Point(266, 185);
             lblTotalConsumo.Name = "lblTotalConsumo";
             lblTotalConsumo.RightToLeft = RightToLeft.Yes;
             lblTotalConsumo.Size = new Size(23, 25);
@@ -204,7 +204,7 @@
             label6.AutoSize = true;
             label6.Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = Color.White;
-            label6.Location = new Point(25, 330);
+            label6.Location = new Point(25, 185);
             label6.Name = "label6";
             label6.Size = new Size(189, 25);
             label6.TabIndex = 29;
@@ -216,7 +216,7 @@
             lblDiferencia.BackColor = SystemColors.InfoText;
             lblDiferencia.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             lblDiferencia.ForeColor = Color.White;
-            lblDiferencia.Location = new Point(266, 186);
+            lblDiferencia.Location = new Point(267, 283);
             lblDiferencia.Name = "lblDiferencia";
             lblDiferencia.RightToLeft = RightToLeft.Yes;
             lblDiferencia.Size = new Size(23, 25);
@@ -229,11 +229,11 @@
             label11.AutoSize = true;
             label11.Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             label11.ForeColor = Color.White;
-            label11.Location = new Point(25, 186);
+            label11.Location = new Point(26, 283);
             label11.Name = "label11";
-            label11.Size = new Size(120, 25);
+            label11.Size = new Size(113, 25);
             label11.TabIndex = 27;
-            label11.Text = "Diferencia :";
+            label11.Text = "Diferencia ";
             // 
             // lblGananciasMesas
             // 
@@ -241,7 +241,7 @@
             lblGananciasMesas.BackColor = SystemColors.InfoText;
             lblGananciasMesas.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             lblGananciasMesas.ForeColor = Color.White;
-            lblGananciasMesas.Location = new Point(266, 282);
+            lblGananciasMesas.Location = new Point(266, 137);
             lblGananciasMesas.Name = "lblGananciasMesas";
             lblGananciasMesas.RightToLeft = RightToLeft.Yes;
             lblGananciasMesas.Size = new Size(23, 25);
@@ -254,11 +254,11 @@
             label9.AutoSize = true;
             label9.Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             label9.ForeColor = Color.White;
-            label9.Location = new Point(25, 282);
+            label9.Location = new Point(25, 137);
             label9.Name = "label9";
-            label9.Size = new Size(173, 25);
+            label9.Size = new Size(166, 25);
             label9.TabIndex = 25;
-            label9.Text = "Total por Mesas :";
+            label9.Text = "Total por Mesas ";
             // 
             // lblCantidadVentas
             // 
@@ -266,7 +266,7 @@
             lblCantidadVentas.BackColor = SystemColors.InfoText;
             lblCantidadVentas.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             lblCantidadVentas.ForeColor = Color.White;
-            lblCantidadVentas.Location = new Point(266, 234);
+            lblCantidadVentas.Location = new Point(267, 331);
             lblCantidadVentas.Name = "lblCantidadVentas";
             lblCantidadVentas.RightToLeft = RightToLeft.Yes;
             lblCantidadVentas.Size = new Size(23, 25);
@@ -279,11 +279,11 @@
             label7.AutoSize = true;
             label7.Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = Color.White;
-            label7.Location = new Point(25, 234);
+            label7.Location = new Point(26, 331);
             label7.Name = "label7";
-            label7.Size = new Size(186, 25);
+            label7.Size = new Size(179, 25);
             label7.TabIndex = 23;
-            label7.Text = "Ventas Realizadas:";
+            label7.Text = "Ventas Realizadas";
             // 
             // lblTotalVentas
             // 
@@ -291,7 +291,7 @@
             lblTotalVentas.BackColor = SystemColors.InfoText;
             lblTotalVentas.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             lblTotalVentas.ForeColor = Color.White;
-            lblTotalVentas.Location = new Point(266, 138);
+            lblTotalVentas.Location = new Point(267, 235);
             lblTotalVentas.Name = "lblTotalVentas";
             lblTotalVentas.RightToLeft = RightToLeft.Yes;
             lblTotalVentas.Size = new Size(23, 25);
@@ -332,11 +332,11 @@
             label4.AutoSize = true;
             label4.Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(25, 138);
+            label4.Location = new Point(26, 235);
             label4.Name = "label4";
-            label4.Size = new Size(172, 25);
+            label4.Size = new Size(165, 25);
             label4.TabIndex = 19;
-            label4.Text = "Total en Ventas :";
+            label4.Text = "Total en Ventas ";
             // 
             // label3
             // 
@@ -345,9 +345,9 @@
             label3.ForeColor = Color.White;
             label3.Location = new Point(25, 42);
             label3.Name = "label3";
-            label3.Size = new Size(99, 25);
+            label3.Size = new Size(92, 25);
             label3.TabIndex = 18;
-            label3.Text = "Efectivo :";
+            label3.Text = "Efectivo ";
             // 
             // label1
             // 
@@ -356,9 +356,9 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(25, 90);
             label1.Name = "label1";
-            label1.Size = new Size(92, 25);
+            label1.Size = new Size(85, 25);
             label1.TabIndex = 17;
-            label1.Text = "Tarjeta :";
+            label1.Text = "Tarjeta ";
             // 
             // label5
             // 
@@ -368,9 +368,9 @@
             label5.ForeColor = Color.White;
             label5.Location = new Point(460, 133);
             label5.Name = "label5";
-            label5.Size = new Size(86, 25);
+            label5.Size = new Size(79, 25);
             label5.TabIndex = 17;
-            label5.Text = "Cajero :";
+            label5.Text = "Cajero ";
             // 
             // lblCajero
             // 
@@ -406,12 +406,12 @@
             Controls.Add(lblCajero);
             Controls.Add(label5);
             Controls.Add(gbContabilidad);
-            Controls.Add(lblEstadoCaja);
             Controls.Add(label2);
             Controls.Add(lblMontoCierre);
             Controls.Add(txtMontoCierre);
             Controls.Add(label8);
             Controls.Add(txtMontoInicio);
+            Controls.Add(lblEstadoCaja);
             Controls.Add(btnCerrarCaja);
             Controls.Add(btnAbrirCaja);
             Controls.Add(cmbCaja);

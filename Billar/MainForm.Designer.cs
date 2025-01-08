@@ -65,62 +65,63 @@
             time10 = new System.Windows.Forms.Timer(components);
             totalTimer = new System.Windows.Forms.Timer(components);
             panelMain = new Panel();
-            label21 = new Label();
+            label17 = new Label();
+            label16 = new Label();
+            label12 = new Label();
+            label15 = new Label();
+            label13 = new Label();
+            label7 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
             lblEstado7 = new Label();
             label30 = new Label();
             lblTotal7 = new Label();
             lblTimer7 = new Label();
-            label20 = new Label();
             lblEstado6 = new Label();
             label22 = new Label();
             lblTotal6 = new Label();
             lblTimer6 = new Label();
-            label19 = new Label();
+            label23 = new Label();
             lblEstado5 = new Label();
             label18 = new Label();
             lblTotal5 = new Label();
             lblTimer5 = new Label();
-            label16 = new Label();
             lblEstado3 = new Label();
             label14 = new Label();
             lblTotal3 = new Label();
             lblTimer3 = new Label();
-            label12 = new Label();
             lblEstado1 = new Label();
             label10 = new Label();
             lblTotal1 = new Label();
             lblTimer1 = new Label();
-            label17 = new Label();
             lblEstado4 = new Label();
             label26 = new Label();
             lblTotal4 = new Label();
             lblTimer4 = new Label();
-            label13 = new Label();
             lblEstado2 = new Label();
             label9 = new Label();
             lblTotal2 = new Label();
             lblTimer2 = new Label();
-            label32 = new Label();
             lblEstado12 = new Label();
             label35 = new Label();
             lblTotal12 = new Label();
             lblTimer12 = new Label();
-            label25 = new Label();
             lblEstado11 = new Label();
             label28 = new Label();
             lblTotal11 = new Label();
             lblTimer11 = new Label();
-            label24 = new Label();
             lblEstado10 = new Label();
             label38 = new Label();
             lblTotal10 = new Label();
             lblTimer10 = new Label();
-            label23 = new Label();
             lblEstado9 = new Label();
             label34 = new Label();
             lblTotal9 = new Label();
             lblTimer9 = new Label();
-            label15 = new Label();
             lblEstado8 = new Label();
             label42 = new Label();
             btnMesa12 = new Button();
@@ -135,57 +136,67 @@
             // 
             // btnReportes
             // 
-            btnReportes.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnReportes.Location = new Point(1116, 18);
+            btnReportes.BackColor = SystemColors.Highlight;
+            btnReportes.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnReportes.ForeColor = SystemColors.ControlLight;
+            btnReportes.Location = new Point(1115, 15);
             btnReportes.Name = "btnReportes";
             btnReportes.Size = new Size(237, 34);
             btnReportes.TabIndex = 2;
             btnReportes.Text = "Reporte de Ventas";
-            btnReportes.UseVisualStyleBackColor = true;
+            btnReportes.UseVisualStyleBackColor = false;
             btnReportes.Click += btnReportes_Click;
             // 
             // btnMesas
             // 
-            btnMesas.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnMesas.Location = new Point(847, 18);
+            btnMesas.BackColor = SystemColors.Highlight;
+            btnMesas.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnMesas.ForeColor = SystemColors.ControlLight;
+            btnMesas.Location = new Point(846, 15);
             btnMesas.Name = "btnMesas";
             btnMesas.Size = new Size(237, 34);
             btnMesas.TabIndex = 2;
             btnMesas.Text = "Listado Mesas";
-            btnMesas.UseVisualStyleBackColor = true;
+            btnMesas.UseVisualStyleBackColor = false;
             btnMesas.Click += btnMesas_Click;
             // 
             // btnProductos
             // 
-            btnProductos.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnProductos.Location = new Point(581, 18);
+            btnProductos.BackColor = SystemColors.Highlight;
+            btnProductos.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnProductos.ForeColor = SystemColors.ControlLight;
+            btnProductos.Location = new Point(580, 15);
             btnProductos.Name = "btnProductos";
             btnProductos.Size = new Size(237, 34);
             btnProductos.TabIndex = 2;
             btnProductos.Text = "Productos";
-            btnProductos.UseVisualStyleBackColor = true;
+            btnProductos.UseVisualStyleBackColor = false;
             btnProductos.Click += btnProductos_Click;
             // 
             // btnVentas
             // 
-            btnVentas.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnVentas.Location = new Point(320, 18);
+            btnVentas.BackColor = SystemColors.Highlight;
+            btnVentas.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnVentas.ForeColor = SystemColors.ControlLight;
+            btnVentas.Location = new Point(319, 15);
             btnVentas.Name = "btnVentas";
             btnVentas.Size = new Size(237, 34);
             btnVentas.TabIndex = 2;
             btnVentas.Text = "Barra";
-            btnVentas.UseVisualStyleBackColor = true;
+            btnVentas.UseVisualStyleBackColor = false;
             btnVentas.Click += btnVentas_Click;
             // 
             // btnCaja
             // 
-            btnCaja.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnCaja.Location = new Point(62, 18);
+            btnCaja.BackColor = SystemColors.Highlight;
+            btnCaja.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnCaja.ForeColor = SystemColors.ControlLight;
+            btnCaja.Location = new Point(61, 15);
             btnCaja.Name = "btnCaja";
             btnCaja.Size = new Size(237, 34);
             btnCaja.TabIndex = 2;
             btnCaja.Text = "Abrir / Cerrar Caja";
-            btnCaja.UseVisualStyleBackColor = true;
+            btnCaja.UseVisualStyleBackColor = false;
             btnCaja.Click += btnReporteVenta_Click;
             // 
             // panel4
@@ -370,7 +381,7 @@
             btnMesa6.FlatStyle = FlatStyle.Flat;
             btnMesa6.Font = new Font("Tahoma", 18F, FontStyle.Bold, GraphicsUnit.Point);
             btnMesa6.ForeColor = SystemColors.Control;
-            btnMesa6.Location = new Point(884, 282);
+            btnMesa6.Location = new Point(892, 282);
             btnMesa6.Name = "btnMesa6";
             btnMesa6.Size = new Size(210, 130);
             btnMesa6.TabIndex = 32;
@@ -493,63 +504,64 @@
             // 
             // panelMain
             // 
-            panelMain.BackColor = Color.Transparent;
-            panelMain.Controls.Add(label21);
+            panelMain.BackColor = Color.DimGray;
+            panelMain.Controls.Add(label17);
+            panelMain.Controls.Add(label16);
+            panelMain.Controls.Add(label12);
+            panelMain.Controls.Add(label15);
+            panelMain.Controls.Add(label13);
+            panelMain.Controls.Add(label7);
+            panelMain.Controls.Add(label6);
+            panelMain.Controls.Add(label5);
+            panelMain.Controls.Add(label4);
+            panelMain.Controls.Add(label3);
+            panelMain.Controls.Add(label2);
+            panelMain.Controls.Add(label1);
             panelMain.Controls.Add(lblEstado7);
             panelMain.Controls.Add(label30);
             panelMain.Controls.Add(lblTotal7);
             panelMain.Controls.Add(lblTimer7);
-            panelMain.Controls.Add(label20);
             panelMain.Controls.Add(lblEstado6);
             panelMain.Controls.Add(label22);
             panelMain.Controls.Add(lblTotal6);
             panelMain.Controls.Add(lblTimer6);
-            panelMain.Controls.Add(label19);
+            panelMain.Controls.Add(label23);
             panelMain.Controls.Add(lblEstado5);
             panelMain.Controls.Add(label18);
             panelMain.Controls.Add(lblTotal5);
             panelMain.Controls.Add(lblTimer5);
-            panelMain.Controls.Add(label16);
             panelMain.Controls.Add(lblEstado3);
             panelMain.Controls.Add(label14);
             panelMain.Controls.Add(lblTotal3);
             panelMain.Controls.Add(lblTimer3);
-            panelMain.Controls.Add(label12);
             panelMain.Controls.Add(lblEstado1);
             panelMain.Controls.Add(label10);
             panelMain.Controls.Add(lblTotal1);
             panelMain.Controls.Add(lblTimer1);
-            panelMain.Controls.Add(label17);
             panelMain.Controls.Add(lblEstado4);
             panelMain.Controls.Add(label26);
             panelMain.Controls.Add(lblTotal4);
             panelMain.Controls.Add(lblTimer4);
-            panelMain.Controls.Add(label13);
             panelMain.Controls.Add(lblEstado2);
             panelMain.Controls.Add(label9);
             panelMain.Controls.Add(lblTotal2);
             panelMain.Controls.Add(lblTimer2);
-            panelMain.Controls.Add(label32);
             panelMain.Controls.Add(lblEstado12);
             panelMain.Controls.Add(label35);
             panelMain.Controls.Add(lblTotal12);
             panelMain.Controls.Add(lblTimer12);
-            panelMain.Controls.Add(label25);
             panelMain.Controls.Add(lblEstado11);
             panelMain.Controls.Add(label28);
             panelMain.Controls.Add(lblTotal11);
             panelMain.Controls.Add(lblTimer11);
-            panelMain.Controls.Add(label24);
             panelMain.Controls.Add(lblEstado10);
             panelMain.Controls.Add(label38);
             panelMain.Controls.Add(lblTotal10);
             panelMain.Controls.Add(lblTimer10);
-            panelMain.Controls.Add(label23);
             panelMain.Controls.Add(lblEstado9);
             panelMain.Controls.Add(label34);
             panelMain.Controls.Add(lblTotal9);
             panelMain.Controls.Add(lblTimer9);
-            panelMain.Controls.Add(label15);
             panelMain.Controls.Add(lblEstado8);
             panelMain.Controls.Add(label42);
             panelMain.Controls.Add(btnMesa12);
@@ -573,23 +585,120 @@
             panelMain.Size = new Size(1814, 790);
             panelMain.TabIndex = 38;
             // 
-            // label21
+            // label17
             // 
-            label21.AutoSize = true;
-            label21.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label21.Image = (Image)resources.GetObject("label21.Image");
-            label21.Location = new Point(1178, 435);
-            label21.Name = "label21";
-            label21.Size = new Size(14, 16);
-            label21.TabIndex = 99;
-            label21.Text = "1";
+            label17.BackColor = Color.Transparent;
+            label17.Image = (Image)resources.GetObject("label17.Image");
+            label17.Location = new Point(1596, 37);
+            label17.Name = "label17";
+            label17.Size = new Size(206, 151);
+            label17.TabIndex = 28;
+            // 
+            // label16
+            // 
+            label16.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label16.Image = (Image)resources.GetObject("label16.Image");
+            label16.Location = new Point(347, 675);
+            label16.Name = "label16";
+            label16.Size = new Size(32, 30);
+            label16.TabIndex = 110;
+            // 
+            // label12
+            // 
+            label12.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.Image = (Image)resources.GetObject("label12.Image");
+            label12.Location = new Point(62, 678);
+            label12.Name = "label12";
+            label12.Size = new Size(32, 30);
+            label12.TabIndex = 109;
+            // 
+            // label15
+            // 
+            label15.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label15.Image = (Image)resources.GetObject("label15.Image");
+            label15.Location = new Point(1149, 437);
+            label15.Name = "label15";
+            label15.Size = new Size(32, 30);
+            label15.TabIndex = 108;
+            // 
+            // label13
+            // 
+            label13.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.Image = (Image)resources.GetObject("label13.Image");
+            label13.Location = new Point(892, 437);
+            label13.Name = "label13";
+            label13.Size = new Size(32, 30);
+            label13.TabIndex = 107;
+            // 
+            // label7
+            // 
+            label7.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.Image = (Image)resources.GetObject("label7.Image");
+            label7.Location = new Point(633, 437);
+            label7.Name = "label7";
+            label7.Size = new Size(32, 30);
+            label7.TabIndex = 106;
+            // 
+            // label6
+            // 
+            label6.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Image = (Image)resources.GetObject("label6.Image");
+            label6.Location = new Point(347, 437);
+            label6.Name = "label6";
+            label6.Size = new Size(32, 30);
+            label6.TabIndex = 105;
+            // 
+            // label5
+            // 
+            label5.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Image = (Image)resources.GetObject("label5.Image");
+            label5.Location = new Point(61, 437);
+            label5.Name = "label5";
+            label5.Size = new Size(32, 30);
+            label5.TabIndex = 104;
+            // 
+            // label4
+            // 
+            label4.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Image = (Image)resources.GetObject("label4.Image");
+            label4.Location = new Point(1159, 184);
+            label4.Name = "label4";
+            label4.Size = new Size(32, 30);
+            label4.TabIndex = 103;
+            // 
+            // label3
+            // 
+            label3.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Image = (Image)resources.GetObject("label3.Image");
+            label3.Location = new Point(892, 184);
+            label3.Name = "label3";
+            label3.Size = new Size(32, 30);
+            label3.TabIndex = 102;
+            // 
+            // label2
+            // 
+            label2.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Image = (Image)resources.GetObject("label2.Image");
+            label2.Location = new Point(633, 184);
+            label2.Name = "label2";
+            label2.Size = new Size(32, 30);
+            label2.TabIndex = 101;
+            // 
+            // label1
+            // 
+            label1.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Image = (Image)resources.GetObject("label1.Image");
+            label1.Location = new Point(62, 184);
+            label1.Name = "label1";
+            label1.Size = new Size(32, 30);
+            label1.TabIndex = 100;
             // 
             // lblEstado7
             // 
             lblEstado7.AutoSize = true;
             lblEstado7.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblEstado7.ForeColor = SystemColors.Control;
-            lblEstado7.Location = new Point(1207, 468);
+            lblEstado7.Location = new Point(1227, 468);
             lblEstado7.Name = "lblEstado7";
             lblEstado7.Size = new Size(14, 16);
             lblEstado7.TabIndex = 98;
@@ -611,7 +720,7 @@
             lblTotal7.AutoSize = true;
             lblTotal7.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTotal7.ForeColor = SystemColors.Control;
-            lblTotal7.Location = new Point(1305, 443);
+            lblTotal7.Location = new Point(1304, 443);
             lblTotal7.Name = "lblTotal7";
             lblTotal7.Size = new Size(21, 16);
             lblTotal7.TabIndex = 96;
@@ -622,29 +731,18 @@
             lblTimer7.AutoSize = true;
             lblTimer7.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTimer7.ForeColor = SystemColors.Control;
-            lblTimer7.Location = new Point(1218, 443);
+            lblTimer7.Location = new Point(1197, 444);
             lblTimer7.Name = "lblTimer7";
             lblTimer7.Size = new Size(59, 16);
             lblTimer7.TabIndex = 95;
             lblTimer7.Text = "00:00:00";
-            // 
-            // label20
-            // 
-            label20.AutoSize = true;
-            label20.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label20.Image = (Image)resources.GetObject("label20.Image");
-            label20.Location = new Point(909, 443);
-            label20.Name = "label20";
-            label20.Size = new Size(14, 16);
-            label20.TabIndex = 94;
-            label20.Text = "1";
             // 
             // lblEstado6
             // 
             lblEstado6.AutoSize = true;
             lblEstado6.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblEstado6.ForeColor = SystemColors.Control;
-            lblEstado6.Location = new Point(935, 468);
+            lblEstado6.Location = new Point(955, 468);
             lblEstado6.Name = "lblEstado6";
             lblEstado6.Size = new Size(14, 16);
             lblEstado6.TabIndex = 93;
@@ -655,18 +753,19 @@
             label22.AutoSize = true;
             label22.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label22.ForeColor = SystemColors.Control;
-            label22.Location = new Point(1000, 451);
+            label22.Location = new Point(995, 444);
             label22.Name = "label22";
             label22.Size = new Size(12, 16);
             label22.TabIndex = 92;
             label22.Text = "-";
+            label22.Click += label22_Click;
             // 
             // lblTotal6
             // 
             lblTotal6.AutoSize = true;
             lblTotal6.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTotal6.ForeColor = SystemColors.Control;
-            lblTotal6.Location = new Point(1032, 451);
+            lblTotal6.Location = new Point(1032, 444);
             lblTotal6.Name = "lblTotal6";
             lblTotal6.Size = new Size(21, 16);
             lblTotal6.TabIndex = 91;
@@ -677,29 +776,27 @@
             lblTimer6.AutoSize = true;
             lblTimer6.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTimer6.ForeColor = SystemColors.Control;
-            lblTimer6.Location = new Point(935, 451);
+            lblTimer6.Location = new Point(930, 444);
             lblTimer6.Name = "lblTimer6";
             lblTimer6.Size = new Size(59, 16);
             lblTimer6.TabIndex = 90;
             lblTimer6.Text = "00:00:00";
             // 
-            // label19
+            // label23
             // 
-            label19.AutoSize = true;
-            label19.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label19.Image = (Image)resources.GetObject("label19.Image");
-            label19.Location = new Point(657, 436);
-            label19.Name = "label19";
-            label19.Size = new Size(14, 16);
-            label19.TabIndex = 89;
-            label19.Text = "1";
+            label23.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label23.Image = (Image)resources.GetObject("label23.Image");
+            label23.Location = new Point(347, 184);
+            label23.Name = "label23";
+            label23.Size = new Size(32, 30);
+            label23.TabIndex = 49;
             // 
             // lblEstado5
             // 
             lblEstado5.AutoSize = true;
             lblEstado5.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblEstado5.ForeColor = SystemColors.Control;
-            lblEstado5.Location = new Point(687, 468);
+            lblEstado5.Location = new Point(697, 468);
             lblEstado5.Name = "lblEstado5";
             lblEstado5.Size = new Size(14, 16);
             lblEstado5.TabIndex = 88;
@@ -710,7 +807,7 @@
             label18.AutoSize = true;
             label18.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label18.ForeColor = SystemColors.Control;
-            label18.Location = new Point(752, 444);
+            label18.Location = new Point(752, 443);
             label18.Name = "label18";
             label18.Size = new Size(12, 16);
             label18.TabIndex = 87;
@@ -732,29 +829,18 @@
             lblTimer5.AutoSize = true;
             lblTimer5.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTimer5.ForeColor = SystemColors.Control;
-            lblTimer5.Location = new Point(687, 444);
+            lblTimer5.Location = new Point(671, 444);
             lblTimer5.Name = "lblTimer5";
             lblTimer5.Size = new Size(59, 16);
             lblTimer5.TabIndex = 85;
             lblTimer5.Text = "00:00:00";
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label16.Image = (Image)resources.GetObject("label16.Image");
-            label16.Location = new Point(372, 680);
-            label16.Name = "label16";
-            label16.Size = new Size(14, 16);
-            label16.TabIndex = 84;
-            label16.Text = "1";
             // 
             // lblEstado3
             // 
             lblEstado3.AutoSize = true;
             lblEstado3.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblEstado3.ForeColor = SystemColors.Control;
-            lblEstado3.Location = new Point(423, 703);
+            lblEstado3.Location = new Point(405, 711);
             lblEstado3.Name = "lblEstado3";
             lblEstado3.Size = new Size(14, 16);
             lblEstado3.TabIndex = 83;
@@ -766,7 +852,7 @@
             label14.AutoSize = true;
             label14.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label14.ForeColor = SystemColors.Control;
-            label14.Location = new Point(467, 688);
+            label14.Location = new Point(450, 685);
             label14.Name = "label14";
             label14.Size = new Size(12, 16);
             label14.TabIndex = 82;
@@ -777,7 +863,7 @@
             lblTotal3.AutoSize = true;
             lblTotal3.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTotal3.ForeColor = SystemColors.Control;
-            lblTotal3.Location = new Point(499, 688);
+            lblTotal3.Location = new Point(482, 685);
             lblTotal3.Name = "lblTotal3";
             lblTotal3.Size = new Size(21, 16);
             lblTotal3.TabIndex = 81;
@@ -788,29 +874,18 @@
             lblTimer3.AutoSize = true;
             lblTimer3.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTimer3.ForeColor = SystemColors.Control;
-            lblTimer3.Location = new Point(402, 688);
+            lblTimer3.Location = new Point(375, 685);
             lblTimer3.Name = "lblTimer3";
             lblTimer3.Size = new Size(59, 16);
             lblTimer3.TabIndex = 80;
             lblTimer3.Text = "00:00:00";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label12.Image = (Image)resources.GetObject("label12.Image");
-            label12.Location = new Point(79, 680);
-            label12.Name = "label12";
-            label12.Size = new Size(14, 16);
-            label12.TabIndex = 79;
-            label12.Text = "1";
             // 
             // lblEstado1
             // 
             lblEstado1.AutoSize = true;
             lblEstado1.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblEstado1.ForeColor = SystemColors.Control;
-            lblEstado1.Location = new Point(130, 708);
+            lblEstado1.Location = new Point(130, 711);
             lblEstado1.Name = "lblEstado1";
             lblEstado1.Size = new Size(14, 16);
             lblEstado1.TabIndex = 78;
@@ -821,7 +896,7 @@
             label10.AutoSize = true;
             label10.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             label10.ForeColor = SystemColors.Control;
-            label10.Location = new Point(170, 688);
+            label10.Location = new Point(162, 685);
             label10.Name = "label10";
             label10.Size = new Size(12, 16);
             label10.TabIndex = 77;
@@ -832,7 +907,7 @@
             lblTotal1.AutoSize = true;
             lblTotal1.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTotal1.ForeColor = SystemColors.Control;
-            lblTotal1.Location = new Point(202, 688);
+            lblTotal1.Location = new Point(201, 686);
             lblTotal1.Name = "lblTotal1";
             lblTotal1.Size = new Size(21, 16);
             lblTotal1.TabIndex = 76;
@@ -843,29 +918,18 @@
             lblTimer1.AutoSize = true;
             lblTimer1.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTimer1.ForeColor = SystemColors.Control;
-            lblTimer1.Location = new Point(109, 688);
+            lblTimer1.Location = new Point(98, 686);
             lblTimer1.Name = "lblTimer1";
             lblTimer1.Size = new Size(59, 16);
             lblTimer1.TabIndex = 75;
             lblTimer1.Text = "00:00:00";
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label17.Image = (Image)resources.GetObject("label17.Image");
-            label17.Location = new Point(359, 440);
-            label17.Name = "label17";
-            label17.Size = new Size(14, 16);
-            label17.TabIndex = 74;
-            label17.Text = "1";
             // 
             // lblEstado4
             // 
             lblEstado4.AutoSize = true;
             lblEstado4.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblEstado4.ForeColor = SystemColors.Control;
-            lblEstado4.Location = new Point(402, 468);
+            lblEstado4.Location = new Point(405, 468);
             lblEstado4.Name = "lblEstado4";
             lblEstado4.Size = new Size(14, 16);
             lblEstado4.TabIndex = 73;
@@ -898,22 +962,11 @@
             lblTimer4.AutoSize = true;
             lblTimer4.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTimer4.ForeColor = SystemColors.Control;
-            lblTimer4.Location = new Point(385, 448);
+            lblTimer4.Location = new Point(378, 444);
             lblTimer4.Name = "lblTimer4";
             lblTimer4.Size = new Size(59, 16);
             lblTimer4.TabIndex = 70;
             lblTimer4.Text = "00:00:00";
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label13.Image = (Image)resources.GetObject("label13.Image");
-            label13.Location = new Point(83, 443);
-            label13.Name = "label13";
-            label13.Size = new Size(14, 16);
-            label13.TabIndex = 69;
-            label13.Text = "1";
             // 
             // lblEstado2
             // 
@@ -953,29 +1006,18 @@
             lblTimer2.AutoSize = true;
             lblTimer2.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTimer2.ForeColor = SystemColors.Control;
-            lblTimer2.Location = new Point(109, 448);
+            lblTimer2.Location = new Point(99, 444);
             lblTimer2.Name = "lblTimer2";
             lblTimer2.Size = new Size(59, 16);
             lblTimer2.TabIndex = 65;
             lblTimer2.Text = "00:00:00";
-            // 
-            // label32
-            // 
-            label32.AutoSize = true;
-            label32.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label32.Image = (Image)resources.GetObject("label32.Image");
-            label32.Location = new Point(1181, 184);
-            label32.Name = "label32";
-            label32.Size = new Size(14, 16);
-            label32.TabIndex = 64;
-            label32.Text = "1";
             // 
             // lblEstado12
             // 
             lblEstado12.AutoSize = true;
             lblEstado12.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblEstado12.ForeColor = SystemColors.Control;
-            lblEstado12.Location = new Point(1227, 207);
+            lblEstado12.Location = new Point(1221, 217);
             lblEstado12.Name = "lblEstado12";
             lblEstado12.Size = new Size(14, 16);
             lblEstado12.TabIndex = 63;
@@ -1008,29 +1050,18 @@
             lblTimer12.AutoSize = true;
             lblTimer12.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTimer12.ForeColor = SystemColors.Control;
-            lblTimer12.Location = new Point(1207, 192);
+            lblTimer12.Location = new Point(1197, 192);
             lblTimer12.Name = "lblTimer12";
             lblTimer12.Size = new Size(59, 16);
             lblTimer12.TabIndex = 60;
             lblTimer12.Text = "00:00:00";
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label25.Image = (Image)resources.GetObject("label25.Image");
-            label25.Location = new Point(909, 184);
-            label25.Name = "label25";
-            label25.Size = new Size(14, 16);
-            label25.TabIndex = 59;
-            label25.Text = "1";
             // 
             // lblEstado11
             // 
             lblEstado11.AutoSize = true;
             lblEstado11.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblEstado11.ForeColor = SystemColors.Control;
-            lblEstado11.Location = new Point(955, 207);
+            lblEstado11.Location = new Point(949, 217);
             lblEstado11.Name = "lblEstado11";
             lblEstado11.Size = new Size(14, 16);
             lblEstado11.TabIndex = 58;
@@ -1063,29 +1094,18 @@
             lblTimer11.AutoSize = true;
             lblTimer11.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTimer11.ForeColor = SystemColors.Control;
-            lblTimer11.Location = new Point(935, 192);
+            lblTimer11.Location = new Point(930, 192);
             lblTimer11.Name = "lblTimer11";
             lblTimer11.Size = new Size(59, 16);
             lblTimer11.TabIndex = 55;
             lblTimer11.Text = "00:00:00";
-            // 
-            // label24
-            // 
-            label24.AutoSize = true;
-            label24.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label24.Image = (Image)resources.GetObject("label24.Image");
-            label24.Location = new Point(649, 184);
-            label24.Name = "label24";
-            label24.Size = new Size(14, 16);
-            label24.TabIndex = 54;
-            label24.Text = "1";
             // 
             // lblEstado10
             // 
             lblEstado10.AutoSize = true;
             lblEstado10.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblEstado10.ForeColor = SystemColors.Control;
-            lblEstado10.Location = new Point(703, 207);
+            lblEstado10.Location = new Point(697, 217);
             lblEstado10.Name = "lblEstado10";
             lblEstado10.Size = new Size(14, 16);
             lblEstado10.TabIndex = 53;
@@ -1118,29 +1138,18 @@
             lblTimer10.AutoSize = true;
             lblTimer10.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTimer10.ForeColor = SystemColors.Control;
-            lblTimer10.Location = new Point(687, 192);
+            lblTimer10.Location = new Point(671, 192);
             lblTimer10.Name = "lblTimer10";
             lblTimer10.Size = new Size(59, 16);
             lblTimer10.TabIndex = 50;
             lblTimer10.Text = "00:00:00";
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label23.Image = (Image)resources.GetObject("label23.Image");
-            label23.Location = new Point(364, 184);
-            label23.Name = "label23";
-            label23.Size = new Size(14, 16);
-            label23.TabIndex = 49;
-            label23.Text = "1";
             // 
             // lblEstado9
             // 
             lblEstado9.AutoSize = true;
             lblEstado9.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblEstado9.ForeColor = SystemColors.Control;
-            lblEstado9.Location = new Point(420, 207);
+            lblEstado9.Location = new Point(414, 217);
             lblEstado9.Name = "lblEstado9";
             lblEstado9.Size = new Size(14, 16);
             lblEstado9.TabIndex = 48;
@@ -1173,29 +1182,18 @@
             lblTimer9.AutoSize = true;
             lblTimer9.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTimer9.ForeColor = SystemColors.Control;
-            lblTimer9.Location = new Point(402, 192);
+            lblTimer9.Location = new Point(378, 192);
             lblTimer9.Name = "lblTimer9";
             lblTimer9.Size = new Size(59, 16);
             lblTimer9.TabIndex = 45;
             lblTimer9.Text = "00:00:00";
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label15.Image = (Image)resources.GetObject("label15.Image");
-            label15.Location = new Point(83, 184);
-            label15.Name = "label15";
-            label15.Size = new Size(14, 16);
-            label15.TabIndex = 44;
-            label15.Text = "1";
             // 
             // lblEstado8
             // 
             lblEstado8.AutoSize = true;
             lblEstado8.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblEstado8.ForeColor = SystemColors.Control;
-            lblEstado8.Location = new Point(126, 209);
+            lblEstado8.Location = new Point(120, 219);
             lblEstado8.Name = "lblEstado8";
             lblEstado8.Size = new Size(14, 16);
             lblEstado8.TabIndex = 43;
@@ -1262,7 +1260,7 @@
             lblTimer8.AutoSize = true;
             lblTimer8.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblTimer8.ForeColor = SystemColors.Control;
-            lblTimer8.Location = new Point(109, 189);
+            lblTimer8.Location = new Point(99, 192);
             lblTimer8.Name = "lblTimer8";
             lblTimer8.Size = new Size(59, 16);
             lblTimer8.TabIndex = 40;
@@ -1336,57 +1334,46 @@
         private Button btnMesa11;
         private System.Windows.Forms.Timer time11;
         private System.Windows.Forms.Timer time12;
-        private Label label15;
         private Label lblEstado8;
         private Label label42;
         private Label lblTotal8;
         private Label lblTimer8;
-        private Label label21;
         private Label lblEstado7;
         private Label label30;
         private Label lblTotal7;
         private Label lblTimer7;
-        private Label label20;
         private Label lblEstado6;
         private Label label22;
         private Label lblTotal6;
         private Label lblTimer6;
-        private Label label19;
         private Label lblEstado5;
         private Label label18;
         private Label lblTotal5;
         private Label lblTimer5;
-        private Label label16;
         private Label lblEstado3;
         private Label label14;
         private Label lblTotal3;
         private Label lblTimer3;
-        private Label label12;
         private Label lblEstado1;
         private Label label10;
         private Label lblTotal1;
         private Label lblTimer1;
-        private Label label17;
         private Label lblEstado4;
         private Label label26;
         private Label lblTotal4;
         private Label lblTimer4;
-        private Label label13;
         private Label lblEstado2;
         private Label label9;
         private Label lblTotal2;
         private Label lblTimer2;
-        private Label label32;
         private Label lblEstado12;
         private Label label35;
         private Label lblTotal12;
         private Label lblTimer12;
-        private Label label25;
         private Label lblEstado11;
         private Label label28;
         private Label lblTotal11;
         private Label lblTimer11;
-        private Label label24;
         private Label lblEstado10;
         private Label label38;
         private Label lblTotal10;
@@ -1396,5 +1383,17 @@
         private Label label34;
         private Label lblTotal9;
         private Label lblTimer9;
+        private Label label16;
+        private Label label12;
+        private Label label15;
+        private Label label13;
+        private Label label7;
+        private Label label6;
+        private Label label5;
+        private Label label4;
+        private Label label3;
+        private Label label2;
+        private Label label1;
+        private Label label17;
     }
 }

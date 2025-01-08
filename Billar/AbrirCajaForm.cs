@@ -255,6 +255,14 @@ namespace Billar
                 decimal diferencia = montoCierre - efectivoEsperado;
 
                 // Mostrar la diferencia en el lblDiferencia
+                if (diferencia < 0)
+                {
+                    lblDiferencia.ForeColor = Color.Red;
+                }
+                else
+                {
+                    lblDiferencia.ForeColor = Color.Green;
+                }
                 lblDiferencia.Text = diferencia.ToString("n0");
             }
             else
