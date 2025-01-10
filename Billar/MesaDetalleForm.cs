@@ -1,5 +1,6 @@
 ﻿using Billar.Context;
 using Billar.Models;
+using DocumentFormat.OpenXml.Wordprocessing;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,6 +13,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static Billar.MainForm;
+using Color = System.Drawing.Color;
 
 namespace Billar
 {
@@ -39,7 +41,8 @@ namespace Billar
         private int IdApertura;
         private int userId;
         // Ruta relativa dentro del proyecto
-        string rutaImagen = @"Resources\Images\";
+    
+  
         public MesaDetalleForm(int _IdMesa, int userId)
         {
             InitializeComponent();
@@ -100,15 +103,15 @@ namespace Billar
         {
             if (Mesa.Estado == 1)
             {
-                btnPararTiempo.Image = Image.FromFile($"{rutaImagen}pause.png");
+                btnPararTiempo.Image = Properties.Resources.pause;
                 btnPararTiempo.Visible = true;
                 btnEstadoMesa.Visible = false;
-                btnEstadoMesa.BackColor = Color.Red;
+                btnEstadoMesa.BackColor = System.Drawing.Color.Red;
                 btnEstadoMesa.Text = "Cerrar  mesa ";
             }
             else
             {
-                btnPararTiempo.Image = Image.FromFile($"{rutaImagen}play.png");
+                btnPararTiempo.Image = Properties.Resources.play;
                 btnPararTiempo.Visible = false;
                 btnEstadoMesa.BackColor = Color.Green;
                 btnEstadoMesa.Text = "Abrir Mesa";
@@ -361,8 +364,17 @@ namespace Billar
                 TimeSpan tiempoTranscurrido = (DateTime.Now - horaInicio) + tiempoAcumulado;
 
                 // Formatear el tiempo transcurrido en horas, minutos y segundos
-                lblTiempoTranscurrido.Text = string.Format("{0:D2}:{1:D2}:{2:D2}",
-                    tiempoTranscurrido.Hours, tiempoTranscurrido.Minutes, tiempoTranscurrido.Seconds);
+
+                if (tiempoTranscurrido.TotalDays > 0) {
+                    lblTiempoTranscurrido.Text = ""+tiempoTranscurrido.Days+" Dia - "  + string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                     tiempoTranscurrido.Hours, tiempoTranscurrido.Minutes, tiempoTranscurrido.Seconds);
+                }
+                else
+                {
+                    lblTiempoTranscurrido.Text = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                      tiempoTranscurrido.Hours, tiempoTranscurrido.Minutes, tiempoTranscurrido.Seconds);
+                }
+              
 
                 tiempoCalculoHora = tiempoTranscurrido; // Almacenar el tiempo calculado
 
@@ -588,7 +600,7 @@ namespace Billar
                 horaInicio = DateTime.Now;
 
                 // Cambia la imagen del botón a "arrow-right.png"
-                btnPararTiempo.Image = Image.FromFile($"{rutaImagen}pause.png");
+                btnPararTiempo.Image = Properties.Resources.pause;
             }
             else
             {
@@ -600,7 +612,7 @@ namespace Billar
                 tiempoDetenido = true;
 
                 // Cambia la imagen del botón a "arrow-left.png"
-                btnPararTiempo.Image = Image.FromFile($"{rutaImagen}play.png");
+                btnPararTiempo.Image = Properties.Resources.play;
             }
         }
 

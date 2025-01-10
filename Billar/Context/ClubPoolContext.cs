@@ -21,7 +21,9 @@ namespace Billar.Context
         public DbSet<Caja> Caja { get; set; }  // Nueva tabla Caja
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            //optionsBuilder.UseSqlServer("Server=DESKTOP-6MPT9S9\\SQLEXPRESS;Database=ClubPool;User Id=sa;Password=root;TrustServerCertificate=True;");
             optionsBuilder.UseSqlServer("Server=Oscar\\SQLEXPRESS;Database=ClubPool;User Id=sa;Password=root;TrustServerCertificate=True;");
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -203,7 +203,7 @@
             MinimizeBox = false;
             Name = "PagoForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Pago";
+            Text = "ESTABLECER PAGO";
             Load += Pago_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

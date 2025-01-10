@@ -432,7 +432,7 @@
             Controls.Add(dgvReporteVentas);
             Name = "ReporteVentasForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "ReporteVentasForm";
+            Text = "REPORTE DE VENTAS";
             Load += ReporteVentasForm_Load;
             Paint += ReporteVentasForm_Paint;
             ((System.ComponentModel.ISupportInitialize)dgvReporteVentas).EndInit();

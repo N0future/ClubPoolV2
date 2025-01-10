@@ -146,7 +146,7 @@
             MinimizeBox = false;
             Name = "AgregarProductoForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "AgregarProductoForm";
+            Text = "AGREGAR PRODUCTOS";
             Load += AgregarProductoForm_Load;
             ResumeLayout(false);
             PerformLayout();

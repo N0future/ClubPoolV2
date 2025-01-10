@@ -171,7 +171,7 @@
             MinimizeBox = false;
             Name = "DetalleVentaReporteForm";
             StartPosition = FormStartPosition.CenterParent;
-            Text = "DetalleVentaReporteForm";
+            Text = "DETALLE VENTA REPORTE";
             Paint += DetalleVentaReporteForm_Paint;
             ((System.ComponentModel.ISupportInitialize)dgvAperturasYCierres).EndInit();
             ResumeLayout(false);

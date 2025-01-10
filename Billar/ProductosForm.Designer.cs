@@ -210,7 +210,7 @@
             MinimizeBox = false;
             Name = "ProductosForm";
             StartPosition = FormStartPosition.CenterParent;
-            Text = "ProductosForm";
+            Text = "PRODUCTOS";
             Load += ProductosForm_Load;
             Paint += ProductosForm_Paint;
             ((System.ComponentModel.ISupportInitialize)dgvProducto).EndInit();

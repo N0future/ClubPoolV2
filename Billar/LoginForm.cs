@@ -16,11 +16,13 @@ namespace Billar
         public LoginForm()
         {
             InitializeComponent();
+            this.KeyPreview = true;
+
+            // Evento KeyDown
+            this.KeyDown += Form1_KeyDown;
         }
-
-        private void btnEntrar_Click(object sender, EventArgs e)
+        void login()
         {
-
             string usuario = txtUsuario.Text.Trim();
             string password = txtPassword.Text.Trim();
 
@@ -53,6 +55,19 @@ namespace Billar
                     // Mostrar un mensaje de error si el login falla
                     MessageBox.Show("Usuario o contraseña incorrecta, o el usuario está inactivo.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+            }
+        }
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+
+            login();
+        }
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                
+                login();
             }
         }
     }

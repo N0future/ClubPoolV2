@@ -40,16 +40,16 @@
             lblEstadoCaja = new Label();
             gbContabilidad = new GroupBox();
             lblTotalConsumo = new Label();
-            label6 = new Label();
             lblDiferencia = new Label();
             label11 = new Label();
-            lblGananciasMesas = new Label();
-            label9 = new Label();
+            label6 = new Label();
             lblCantidadVentas = new Label();
             label7 = new Label();
             lblTotalVentas = new Label();
             lblMontoEfectivo = new Label();
+            lblGananciasMesas = new Label();
             lblMontoTarjeta = new Label();
+            label9 = new Label();
             label4 = new Label();
             label3 = new Label();
             label1 = new Label();
@@ -84,7 +84,7 @@
             // btnCerrarCaja
             // 
             btnCerrarCaja.BackColor = SystemColors.Control;
-            btnCerrarCaja.BackgroundImage = (Image)resources.GetObject("btnCerrarCaja.BackgroundImage");
+            btnCerrarCaja.BackgroundImage = Properties.Resources.cancelar__1_;
             btnCerrarCaja.BackgroundImageLayout = ImageLayout.Stretch;
             btnCerrarCaja.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnCerrarCaja.Location = new Point(717, 430);
@@ -199,17 +199,6 @@
             lblTotalConsumo.Text = "0";
             lblTotalConsumo.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(25, 185);
-            label6.Name = "label6";
-            label6.Size = new Size(189, 25);
-            label6.TabIndex = 29;
-            label6.Text = "Total por Consumo";
-            // 
             // lblDiferencia
             // 
             lblDiferencia.AutoSize = true;
@@ -235,30 +224,16 @@
             label11.TabIndex = 27;
             label11.Text = "Diferencia ";
             // 
-            // lblGananciasMesas
+            // label6
             // 
-            lblGananciasMesas.AutoSize = true;
-            lblGananciasMesas.BackColor = SystemColors.InfoText;
-            lblGananciasMesas.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            lblGananciasMesas.ForeColor = Color.White;
-            lblGananciasMesas.Location = new Point(266, 137);
-            lblGananciasMesas.Name = "lblGananciasMesas";
-            lblGananciasMesas.RightToLeft = RightToLeft.Yes;
-            lblGananciasMesas.Size = new Size(23, 25);
-            lblGananciasMesas.TabIndex = 26;
-            lblGananciasMesas.Text = "0";
-            lblGananciasMesas.TextAlign = ContentAlignment.MiddleRight;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label9.ForeColor = Color.White;
-            label9.Location = new Point(25, 137);
-            label9.Name = "label9";
-            label9.Size = new Size(166, 25);
-            label9.TabIndex = 25;
-            label9.Text = "Total por Mesas ";
+            label6.AutoSize = true;
+            label6.Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = Color.White;
+            label6.Location = new Point(25, 185);
+            label6.Name = "label6";
+            label6.Size = new Size(189, 25);
+            label6.TabIndex = 29;
+            label6.Text = "Total por Consumo";
             // 
             // lblCantidadVentas
             // 
@@ -313,6 +288,20 @@
             lblMontoEfectivo.Text = "0";
             lblMontoEfectivo.TextAlign = ContentAlignment.MiddleRight;
             // 
+            // lblGananciasMesas
+            // 
+            lblGananciasMesas.AutoSize = true;
+            lblGananciasMesas.BackColor = SystemColors.InfoText;
+            lblGananciasMesas.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            lblGananciasMesas.ForeColor = Color.White;
+            lblGananciasMesas.Location = new Point(266, 137);
+            lblGananciasMesas.Name = "lblGananciasMesas";
+            lblGananciasMesas.RightToLeft = RightToLeft.Yes;
+            lblGananciasMesas.Size = new Size(23, 25);
+            lblGananciasMesas.TabIndex = 26;
+            lblGananciasMesas.Text = "0";
+            lblGananciasMesas.TextAlign = ContentAlignment.MiddleRight;
+            // 
             // lblMontoTarjeta
             // 
             lblMontoTarjeta.AutoSize = true;
@@ -326,6 +315,17 @@
             lblMontoTarjeta.TabIndex = 20;
             lblMontoTarjeta.Text = "0";
             lblMontoTarjeta.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.ForeColor = Color.White;
+            label9.Location = new Point(25, 137);
+            label9.Name = "label9";
+            label9.Size = new Size(166, 25);
+            label9.TabIndex = 25;
+            label9.Text = "Total por Mesas ";
             // 
             // label4
             // 
@@ -419,7 +419,7 @@
             MinimizeBox = false;
             Name = "AbrirCajaForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "PoolForm";
+            Text = "APERTURA Y CIERRE DE CAJA";
             Load += AbrirCajaForm_Load;
             Paint += AbrirCajaForm_Paint;
             gbContabilidad.ResumeLayout(false);

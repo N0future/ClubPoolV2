@@ -1282,9 +1282,10 @@
             ClientSize = new Size(1814, 861);
             Controls.Add(panelMain);
             Controls.Add(panel4);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Club Billar";
+            Text = "PubClub";
             WindowState = FormWindowState.Maximized;
             Paint += MainForm_Paint;
             panel4.ResumeLayout(false);

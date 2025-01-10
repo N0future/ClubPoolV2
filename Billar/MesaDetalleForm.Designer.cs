@@ -750,6 +750,7 @@
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "MesaDetalleForm";
             StartPosition = FormStartPosition.CenterScreen;
+            Text = "DETALLE VENTA MESA";
             Load += MesaDetalleForm_Load;
             Paint += MesaDetalleForm_Paint;
             ((System.ComponentModel.ISupportInitialize)dgvProductos).EndInit();

@@ -67,7 +67,6 @@
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(258, 33);
             txtPassword.TabIndex = 24;
-            txtPassword.Text = "1234";
             txtPassword.UseSystemPasswordChar = true;
             // 
             // label2
@@ -88,7 +87,6 @@
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(258, 33);
             txtUsuario.TabIndex = 22;
-            txtUsuario.Text = "obaeza";
             // 
             // label1
             // 
@@ -115,7 +113,7 @@
             MinimizeBox = false;
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "PoolSystem 1.0";
+            Text = "PubClub System 1.0";
             ResumeLayout(false);
             PerformLayout();
         }

@@ -183,7 +183,7 @@
             Controls.Add(dgvAperturasYCierres);
             Name = "DetalleAperturaCierreForm";
             StartPosition = FormStartPosition.CenterParent;
-            Text = "DetalleAperturaCierreForm";
+            Text = "DETALLE DE APERTURAS";
             Load += DetalleAperturaCierreForm_Load;
             Paint += DetalleAperturaCierreForm_Paint;
             ((System.ComponentModel.ISupportInitialize)dgvAperturasYCierres).EndInit();
